@@ -23,3 +23,10 @@ A short explanation of your solution — what it does, how it works, and whom it
 
 ## Screenshot
 Include a screenshot of your project UI or working demo:
+
+
+
+
+
+<img width="1268" height="793" alt="image" src="https://github.com/user-attachments/assets/7605a336-16e8-4dfc-9c21-445cf7bd5878" />
+
