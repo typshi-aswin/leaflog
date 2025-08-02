@@ -70,9 +70,44 @@ Your project’s name
 
 
 ## Key Features
-- Feature 1
-- Feature 2
-- Feature 3
+## 🔑 Key Features
+
+- ✅ **Daily Eco Missions**
+  - Users receive 3 rotating sustainability tasks each day.
+  - Tasks like avoiding plastic, using stairs, or carrying a bottle.
+  - Confetti animation triggers on full completion.
+
+- 📝 **Eco Action Logger**
+  - Quick journal to log personal eco-actions.
+  - Supports emoji, short text, and optional image uploads.
+
+
+- 🔥 **Eco-Streak & Stats Tracker**
+  - Tracks how many days in a row the user was eco-conscious.
+  - Displays daily stats: CO₂ saved, water saved, plastic avoided.
+
+- 🖼️ **Moodboard Timeline**
+  - Scrollable feed of past actions and journal entries.
+  - Encourages reflection and consistent behavior.
+
+- 🧠 **Eco Quote or Tip of the Day**
+  - Daily quote for awareness and inspiration.
+  - Enhances user experience and educational value.
+
+- 📈 **Weekly Impact Report (Optional)**
+  - Graphical summary of weekly performance.
+  - Built using Chart.js or Recharts.
+
+- 🏅 **Community Badge System (Optional)**
+  - Unlock achievement badges for eco-behaviors.
+  - Example: "Plastic-Free Pro", "Water Saver", etc.
+
+- 🌍 **Personalized Task Generator**
+  - Tasks tailored based on user lifestyle (student, adult, etc.).
+  - Dynamic rotation using JSON or backend logic.
+
+
+
 
 ## GitHub Repository Link
 <!-- Paste your public repo link here -->
