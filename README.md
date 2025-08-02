@@ -1,75 +1,17 @@
-# 🚀 Green Spark Submission
+## Green Spark Submission
 
-## Project Title
-Your project’s name
+**Team Name:**  
+Naveen's Team
 
-## Problem Statement Addressed
-"How might we build and deploy technology-driven solutions that actively promote cleaner, greener communities and environmental sustainability?"
+**Project Title:**  
+LeafLog
 
-## Project Overview
-# 🌿 Green Loop: A Gamified Sustainability Tracker
+**Problem Statement Addressed:**  
+"How might we use technology to build cleaner, greener communities through sustainable innovations?"
 
-**Green Loop** is a fun, interactive, and educational web app that encourages users to adopt eco-friendly habits through daily tasks, action logging, streaks, and visual rewards. Designed for **cleaner, greener communities**, the app promotes sustainability through micro-actions that make a macro impact.
+**Project Overview:**  
 
----
-
-## 📌 Features Overview
-
-### ✅ 1. Daily Eco Task Section (To-Do Style)
-
-- **Daily rotating eco-friendly missions** like:
-  - 🍼 Use a reusable bottle  
-  - 🛍️ Avoid plastic bags  
-  - 🪜 Take stairs instead of elevator  
-- Ticking all tasks triggers a **confetti celebration animation**
-- Tasks refresh every day and are tracked for user impact
-
----
-
-### 📝 2. Quick Journal Entry / Action Logger
-
-- Floating “Log your eco-action” button
-- Add:
-  - Emoji ✔️  
-  - Short sentence 🧠  
-  - Optional photo 🖼️  
-- Stores entries in Firebase Firestore
-- Appears on personal **moodboard timeline**
-
----
-
-### 🔥 3. Eco-Streaks & Impact Stats Panel
-
-- Daily streak tracker:  
-  “You’ve been eco-conscious for 🌞 4 days in a row!”
-- Real-time metrics:
-  - 🌿 CO₂ saved (e.g., 1.2 kg/day)  
-  - 💧 Water saved (e.g., 5L/day)  
-  - 🧴 Plastic saved (e.g., 2 items/day)
-
----
-
-### 📸 4. Moodboard Preview
-
-- Horizontal scroll of recent eco-journal entries
-- Click to expand into a full-page **eco-diary**
-- Visual motivation through personal impact
-
----
-
-### ✨ Optional UI Features
-
-- **Eco Tip / Quote of the Day:**  
-  > "The Earth is what we all have in common. 🌎"  
-  – *Wendell Berry*
-
-- Stylish cards to inspire users daily
-
----
-
-
-
-## Key Features
+LeafLog  is a light-themed, visually soothing web app that helps individuals build sustainable habits through daily eco-friendly missions and personal action journaling. Designed with a soft green palette and a calm, nature-inspired aesthetic, LeafLog turns environmental responsibility into a rewarding daily ritual. Users are encouraged to complete simple predefined tasks while also logging their own actions in a beautifully crafted moodboard-style feed. With gentle animations, streak tracking, and a clear sense of personal impact, LeafLog makes going green feel both meaningful and visually delightful — helping users bloom into a better version of themselves, one day at a time.
 ## 🔑 Key Features
 
 - ✅ **Daily Eco Missions**
@@ -106,22 +48,18 @@ Your project’s name
   - Tasks tailored based on user lifestyle (student, adult, etc.).
   - Dynamic rotation using JSON or backend logic.
 
+Tech Stack:
+The app uses React for the frontend to create a smooth, responsive UI, and Django for the backend to manage APIs, user data, and logic. A relational database like PostgreSQL or SQLite is used to store user profiles, tasks, and journal entries securely.
 
+**GitHub Repository Link:**  
+[LeafLog Github](https://github.com/Naveen-unni/LeafLog)
 
+**Team Members and Roles:**  
+- Naveen S [Backend] 
+- Aswin V Sivan [Frontend]
+- Adithyan Asok [Frontend]
+- Anoj S Viswam [UI Design]
 
-## GitHub Repository Link
-<!-- Paste your public repo link here -->
+<img width="1268" height="793" alt="Image" src="https://github.com/user-attachments/assets/f01dd53f-3605-45de-bc04-aa8c6941b41e" />
 
-## Team Members & Roles
-- Name 1 – Role
-- Name 2 – Role
-
-## Screenshot
-Include a screenshot of your project UI or working demo:
-
-
-
-
-
-<img width="1268" height="793" alt="image" src="https://github.com/user-attachments/assets/7605a336-16e8-4dfc-9c21-445cf7bd5878" />
-
+### potential user interface design
