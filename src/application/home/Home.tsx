@@ -5,18 +5,22 @@ import ImpactCard from "./ui/ImpactCard/ImpactCard";
 import InspirationCard from "./ui/InspirationCard/InspirationCard";
 import ButtonBar from "../../components/ButtonBar/ButtonBar";
 import LeaderboardCard from "./ui/LeaderboardCard/LeaderboardCard";
+import EcoCompanionCard from "./ui/EcoCompanionCard/EcoCompanionCard";
 
 function Home() {
     return(
        <>
        <Navbar />
        <div className={styles.backgroundContainer}>
+        <div className={styles.innerContainerOne}>
         <EcoMissions />
-        <div className={styles.innerContainer}> 
+         <LeaderboardCard />
+         </div>
+        <div className={styles.innerContainerTwo}> 
         <ImpactCard />
+        <EcoCompanionCard />
         <InspirationCard />
         </div>
-        <LeaderboardCard />
        </div>
        <ButtonBar />
        </>
