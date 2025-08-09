@@ -16,8 +16,19 @@
 }
 
 .page {
-  min-height: 100vh;
-  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 1rem;
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 /* Toasts */
@@ -113,6 +124,7 @@
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
   border: 2px solid transparent;
   transition: all 0.3s ease;
+  margin: 1rem 0rem;
 }
 
 .taskCard:hover {
@@ -123,9 +135,10 @@
 
 .userInfo {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: space-between;
   gap: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem 0rem;
 }
 
 .avatar {
@@ -159,6 +172,8 @@
   font-size: 0.875rem;
   color: #6b7280;
   font-style: italic;
+  margin: 1rem 0rem;
+  margin-bottom: 2rem;
 }
 
 /* Task details */
@@ -183,15 +198,16 @@
   border-radius: 0.75rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   max-height: 250px;
-  margin-bottom: 1.5rem;
+  margin: 1.5rem 0rem;
 }
 
 /* Comment box */
 .commentWrapper {
   position: relative;
+  margin-bottom: 1rem;
 }
 
-.commentBox {
+.commentInput {
   width: 100%;
   padding: 0.75rem 1rem 0.75rem 2.5rem;
   background: #f9fafb;
@@ -201,24 +217,25 @@
   transition: all 0.2s ease;
 }
 
-.commentBox:focus {
+.commentInput:focus {
   outline: none;
   border-color: transparent;
   box-shadow: 0 0 0 2px #8fc866;
 }
 
 /* Action buttons */
-.actions {
+.actionButtons {
   display: flex;
   gap: 1rem;
   justify-content: flex-end;
 }
 
-.rejectBtn {
+.rejectButton {
   display: flex;
   align-items: center;
   gap: 0.5rem;
   padding: 0.75rem 2rem;
+  border: none;
   background: linear-gradient(to right, #ef5350, #e57373);
   color: white;
   font-weight: 600;
@@ -227,16 +244,17 @@
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.rejectBtn:hover {
+.rejectButton:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
-.approveBtn {
+.approveButton {
   display: flex;
   align-items: center;
   gap: 0.5rem;
   padding: 0.75rem 2rem;
+  border: none;
   background: linear-gradient(to right, #8fc866, #a5d6a7);
   color: white;
   font-weight: 600;
@@ -245,7 +263,7 @@
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.approveBtn:hover {
+.approveButton:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
@@ -254,4 +272,8 @@
   .photoWrapper {
     width: auto;
   }
+  .actionButtons {
+  justify-content: center;
+}
+
 }

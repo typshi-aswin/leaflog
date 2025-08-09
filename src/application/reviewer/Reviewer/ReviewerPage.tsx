@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { useState } from 'react';
-import { Search, Calendar, MessageSquare, Check, X, CheckCircle, XCircle } from 'lucide-react';
+import { Calendar, Check, X, CheckCircle, XCircle } from 'lucide-react';
 import styles from './ReviewerPage.module.css';
 import Navbar from '../../../components/Navbar/Navbar';
 import ButtonBar from '../../../components/ButtonBar/ButtonBar';
@@ -140,8 +140,9 @@ function App() {
   };
 
   return (
+    <>
+    <Navbar />
      <div className={styles.page}>
-        <Navbar />
       {/* Toast Container */}
       <div className={styles.toastContainer}>
         {toasts.map(toast => (
@@ -164,7 +165,6 @@ function App() {
 
           {/* Search Bar */}
           <div className={styles.searchWrapper}>
-            <Search className={styles.searchIcon} />
             <input
               type="text"
               placeholder="Search by username or task name..."
@@ -214,7 +214,6 @@ function App() {
                 <div className={styles.reviewControls}>
                   {/* Comment Input */}
                   <div className={styles.commentWrapper}>
-                    <MessageSquare className={styles.commentIcon} />
                     <textarea
                       placeholder="Add a comment (optional)..."
                       value={comments[task.id] || ''}
@@ -244,8 +243,9 @@ function App() {
           )}
         </div>
       </div>
-      <ButtonBar />
     </div>
+    <ButtonBar />
+    </>
   );
 }
 
