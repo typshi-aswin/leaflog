@@ -9,7 +9,7 @@ function PersonalDetails() {
                 <div className={styles.avatarWrapper}>
                     <div className={styles.avatarCircle}>
                         <img
-                            src="assets\envar-studio-valorant-first-breakfast-final-02-22.jpg"
+                            src="public\envar-studio-valorant-first-breakfast-final-02-22.jpg"
                             alt="User Avatar"
                             className={styles.avatarImage}
                         /></div>
