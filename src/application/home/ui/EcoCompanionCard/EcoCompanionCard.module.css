@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white-pure);
+    border: none;
+    border-radius: 15px;
+    max-width: 50rem;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    span {
+        font-size: 0.8rem;
+    }
+}
+
+.treeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    p {
+        font-size: 7rem;
+    }
+    span {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+}
