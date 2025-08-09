@@ -36,10 +36,10 @@ Clifin Cletus - Backend
 Aswin V Sivan - Frontend
 
 ## Screenshot
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
+![alt text](./assets/project_screenshot_1.png)
+![alt text](./assets/project_screenshot_2.png)
+![alt text](./assets/project_screenshot_3.png)
+![alt text](./assets/project_screenshot_4.png)
 
 Additional Notes (Optional)
 
