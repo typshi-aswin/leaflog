@@ -1,4 +1,4 @@
-import styles from './LeaderBoardCard.module.css';
+import styles from './LeaderboardCard.module.css';
 import { RxAvatar } from "react-icons/rx";
 function LeaderboardCard() {
 
