@@ -7,14 +7,19 @@ function PersonalDetails() {
         <div className={styles.profileContainer}>
             <div className={styles.profileCard}>
                 <div className={styles.avatarWrapper}>
-                    <div className={styles.avatarCircle}>🌱</div>
+                    <div className={styles.avatarCircle}>
+                        <img
+                            src="assets\envar-studio-valorant-first-breakfast-final-02-22.jpg"
+                            alt="User Avatar"
+                            className={styles.avatarImage}
+                        /></div>
                     <button className={styles.cameraBtn}>
                         <IoCameraOutline className="w-5 h-5" style={{ color: '#8fc866' }} />
                     </button>
                 </div>
 
-                <h1 className={styles.username}>EcoWarrior_Sam</h1>
-                <p className={styles.email}>sam.green@example.com</p>
+                <h1 className={styles.username}>Aswin V Sivan</h1>
+                <p className={styles.email}>aswinvsivan@gmail.com</p>
 
                 <button className={styles.editProfileBtn}>
                     <MdOutlineEdit className="w-4 h-4" />

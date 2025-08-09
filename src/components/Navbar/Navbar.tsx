@@ -1,6 +1,5 @@
 import styles from './Navbar.module.css';
 import { GiLindenLeaf } from "react-icons/gi";
-import { RxAvatar } from "react-icons/rx";
 import { useLocation } from 'react-router-dom';
 
 function Navbar() {
@@ -29,8 +28,12 @@ function Navbar() {
                         </div>
                     ) : (
                         <>
-                            <span>username</span>
-                            <RxAvatar size={30}/>
+                            <span>aswinvsivan</span>
+                            <img
+                                src="assets\envar-studio-valorant-first-breakfast-final-02-22.jpg"
+                                alt="User Avatar"
+                                className={styles.avatarImage}
+                            />
                         </>
                     )}
                 </div>

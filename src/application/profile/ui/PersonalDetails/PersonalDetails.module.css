@@ -40,6 +40,13 @@
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
+.avatarImage {
+    width: 8rem;
+    height: 8rem;
+    border:none;
+    border-radius: 50%;
+}
+
 /* Camera Button */
 .cameraBtn {
     position: absolute;

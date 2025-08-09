@@ -3,6 +3,8 @@ import { FaGifts } from "react-icons/fa";
 import { FaBitcoin } from "react-icons/fa";
 import { LuCircleDollarSign } from "react-icons/lu";
 import { FaTree } from "react-icons/fa";
+import { FaEthereum } from "react-icons/fa";
+
 function RewardsRedemption() {
     return(
         <div className={styles.rewardsCard}>
@@ -20,7 +22,7 @@ function RewardsRedemption() {
           <span className={styles.cryptoText}>BTC</span>
         </div>
         <div className={`${styles.cryptoItem} ${styles.cryptoItemBlue}`}>
-          <div className="w-8 h-8 mx-auto mb-2 rounded-full bg-blue-500 flex items-center justify-center text-white text-xs font-bold">ETH</div>
+          <FaEthereum className={`${styles.cryptoIcon} text-orange-500`} />
           <span className={styles.cryptoText}>ETH</span>
         </div>
         <div className={`${styles.cryptoItem} ${styles.cryptoItemGreen}`}>
