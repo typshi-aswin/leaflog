@@ -1,69 +1,46 @@
-# React + TypeScript + Vite
+# 🚀 Green Spark Submission
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Title
+LeafLog 
 
-Currently, two official plugins are available:
+## Problem Statement Addressed
+"Make environmental responsibility fun — using points, leaderboards, and achievements for eco-friendly actions."
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Overview
+Users log activities like planting trees, recycling, or participating in clean-up drives, and upload proof for review. Reviewers verify submissions, while admins oversee reviewer management and requests.
 
-## Expanding the ESLint configuration
+The platform awards points, badges, and leaderboard rankings to encourage friendly competition and community impact. With its clean, green-themed UI and responsive design, LeafLog turns environmental action into a game everyone can play.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Key Features
+📸 Task Submission with Proof – Users log eco-actions (e.g., tree planting, recycling) with photo evidence.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+✅ Reviewer System – Verified reviewers can approve or reject submissions with optional comments.
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+🛡️ Admin Controls – Admins manage reviewers, approve reviewer requests, and monitor platform activity.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+🏆 Gamification – Earn points, badges, and leaderboard rankings to encourage continuous engagement.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+🔍 Search & Filtering – Easily find tasks by username or activity type.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+📱 Responsive UI – Clean, green-themed interface optimized for desktop and mobile.
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+
+## GitHub Repository Link
+Frontend: https://github.com/typshi-aswin/leaflog
+Backend: https://github.com/NayanUnni95/LeafLogBK
+
+## Team Members & Roles
+Naveen S - Team Lead
+Nayan SS - Backend
+Clifin Cletus - Backend
+Aswin V Sivan - Frontend
+
+## Screenshot
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+
+Additional Notes (Optional)
+
+Any challenges faced, tech stack used, or future plans.
