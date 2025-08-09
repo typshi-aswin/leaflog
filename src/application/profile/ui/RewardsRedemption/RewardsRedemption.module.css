@@ -1,0 +1,170 @@
+/* Rewards.module.css */
+
+.rewardsCard {
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.rewardsHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.rewardsTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2e2e2e;
+}
+
+.rewardsGrid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .rewardsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.redeemBox {
+  border: 2px solid #bbf7d0;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  transition: border-color 0.3s ease;
+}
+
+.redeemBox:hover {
+  border-color: #86efac;
+}
+
+.redeemTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #2e2e2e;
+}
+
+.cryptoGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.cryptoItem {
+  text-align: center;
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cryptoItemOrange {
+  background-color: #fff7ed;
+}
+
+.cryptoItemOrange:hover {
+  background-color: #ffedd5;
+}
+
+.cryptoItemBlue {
+  background-color: #eff6ff;
+}
+
+.cryptoItemBlue:hover {
+  background-color: #dbeafe;
+}
+
+.cryptoItemGreen {
+  background-color: #f0fdf4;
+}
+
+.cryptoItemGreen:hover {
+  background-color: #dcfce7;
+}
+
+.cryptoIcon {
+  margin: 0 auto 0.5rem auto;
+  width: 2rem;
+  height: 2rem;
+}
+
+.cryptoText {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.redeemButton {
+  width: 100%;
+  padding: 0.75rem;
+  border:none;
+  border-radius: 9999px;
+  color: white;
+  font-weight: 500;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(135deg, #8fc866, #a5d6a7);
+}
+
+.redeemButton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(143, 200, 102, 0.4);
+}
+
+
+/* Add to Rewards.module.css */
+
+.treeBox {
+  border: 2px solid #bbf7d0;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  transition: border-color 0.3s ease;
+}
+
+.treeBox:hover {
+  border-color: #86efac;
+}
+
+.treeTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #2e2e2e;
+}
+
+.treeContent {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.treeIcon {
+  width: 4rem;
+  height: 4rem;
+  margin: 0 auto 1rem auto;
+  color: #81c784;
+}
+
+.treeText {
+  color: #4b5563;
+}
+
+.treeButton {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 9999px;
+  border:none;
+  color: white;
+  font-weight: 500;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(135deg, #81c784, #a5d6a7);
+}
+
+.treeButton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(129, 199, 132, 0.4);
+}
