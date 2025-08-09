@@ -3,7 +3,11 @@ import { motion } from 'framer-motion';
 
 function EcoCompanionCard() {
     return (
-        <div className={styles.container}>
+        <motion.div
+            className={styles.container}
+            initial={{ scale: 0, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ type: "spring", stiffness: 260, damping: 20 }}>
             <div className={styles.headerContainer}>
                 <p>My Eco Companion</p>
             </div>
@@ -21,7 +25,7 @@ function EcoCompanionCard() {
                 </motion.p>
                 <span>Growing Tree</span>
             </div>
-        </div>
+        </motion.div>
     );
 }
 
