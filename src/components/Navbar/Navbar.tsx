@@ -30,7 +30,7 @@ function Navbar() {
                         <>
                             <span>aswinvsivan</span>
                             <img
-                                src="public\envar-studio-valorant-first-breakfast-final-02-22.jpg"
+                                src="/envar-studio-valorant-first-breakfast-final-02-22.jpg"
                                 alt="User Avatar"
                                 className={styles.avatarImage}
                             />
