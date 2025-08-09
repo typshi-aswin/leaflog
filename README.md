@@ -43,4 +43,19 @@ Aswin V Sivan - Frontend
 
 Additional Notes (Optional)
 
-Any challenges faced, tech stack used, or future plans.
+🌱 Future Optional Features
+📊 Impact Analytics Dashboard – Show detailed stats like CO₂ saved, trees planted, waste reduced.
+
+💰 Multi-Currency Rewards – Expand eco-coin redemption to more cryptocurrencies and local payment options.
+
+🤝 NGO Partnerships – Direct integrations with environmental NGOs for real-time donation tracking.
+
+📍 Geo-Tagging of Tasks – Map-based visualization of global eco-actions.
+
+🎯 Daily/Weekly Challenges – Limited-time challenges to boost engagement.
+
+🔔 Push Notifications – Reminders for streaks, new challenges, or pending reviews.
+
+👥 Social Feed – A community timeline to share eco-action updates and inspire others.
+
+🔒 Blockchain Verification – Immutable proof of eco-action for transparency and trust.
