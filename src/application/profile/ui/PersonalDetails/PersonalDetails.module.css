@@ -1,0 +1,91 @@
+/* Profile.module.css */
+
+/* Container */
+.profileContainer {
+    display: flex;
+    z-index: 10;
+    max-width: 100rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Profile Card */
+.profileCard {
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    /* rounded-3xl */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+    max-width: 100rem;
+}
+
+/* Avatar Wrapper */
+.avatarWrapper {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+}
+
+/* Avatar Circle */
+.avatarCircle {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background: linear-gradient(to bottom right, #c8f2c2, #a5d6a7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.75rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Camera Button */
+.cameraBtn {
+    position: absolute;
+    bottom: -0.5rem;
+    right: -0.5rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 0.5rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.cameraBtn:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Username */
+.username {
+    font-size: 1.875rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #2e2e2e;
+}
+
+/* Email */
+.email {
+    color: #6b7280;
+    /* Tailwind's text-gray-500 */
+    margin-bottom: 1.5rem;
+}
+
+/* Edit Profile Button */
+.editProfileBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border:none;
+    border-radius: 9999px;
+    color: #ffffff;
+    font-weight: 500;
+    background: linear-gradient(135deg, #8fc866, #a5d6a7);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.editProfileBtn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(143, 200, 102, 0.4);
+}
