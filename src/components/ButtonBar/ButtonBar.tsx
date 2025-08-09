@@ -1,9 +1,8 @@
 import React from 'react';
 import styles from './ButtonBar.module.css';
-import { FaHome, FaUser, FaCog } from 'react-icons/fa';
+import { FaHome, FaUser } from 'react-icons/fa';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { MdOutlineReviews } from "react-icons/md";
-import { MdOutlineAdminPanelSettings } from "react-icons/md";
 
 const ButtonBar: React.FC = () => {
     const location = useLocation();
@@ -12,9 +11,7 @@ const ButtonBar: React.FC = () => {
     const navItems = [
         { path: '/home', label: 'Home', icon: <FaHome size={20}/> },
         { path: '/profile', label: 'Profile', icon: <FaUser /> },
-        { path: '/settings', label: 'Settings', icon: <FaCog /> },
         { path: '/reviewer', label: 'Reviewer', icon: <MdOutlineReviews /> },
-        { path: '/admin', label: 'Admin', icon: <MdOutlineAdminPanelSettings />},
     ];
 
     return (
