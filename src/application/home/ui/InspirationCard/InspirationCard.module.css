@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    border-radius: 15px;
+    background: #E0F7DE;
+    background: linear-gradient(302deg, rgba(224, 247, 222, 1) 0%, rgba(243, 244, 210, 1) 100%);
+    padding: 1.2rem 1.2rem;
+    gap:1rem
+}
+
+.iconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(244, 220, 8, 0.616);
+    padding: 1rem;
+    border: none;
+    border-radius: 15px;
+}
+
+.innerContainer2 {
+    p {
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.quoteText {
+    font-style: italic;
+}
+
+.authorText {
+    color: var(--text-color-secondary);
+    font-weight: 600;
+}

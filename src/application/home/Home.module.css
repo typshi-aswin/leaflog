@@ -1,0 +1,29 @@
+.backgroundContainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 1rem;
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+.innerContainer {
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+@media screen and (max-width: 700px) {
+    .backgroundContainer {
+        display:flex;
+        flex-direction: column;
+    }
+}
